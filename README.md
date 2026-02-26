@@ -14,3 +14,12 @@ Run tests:
 ```powershell
 & 'c:/Users/kbran/.copilot/ide/.venv/Scripts/python.exe' -m pytest
 ```
+
+Example package:
+
+This repo includes a minimal package `project` with a sample function and tests:
+
+```python
+from project import add
+print(add(2,3))  # 5
+```
