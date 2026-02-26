@@ -1,7 +1,8 @@
 import sys
 from pathlib import Path
 
-# Ensure the `src` directory is on sys.path so `project` can be imported during tests
+# Add `src` to `sys.path` so `project` can be imported in tests
 ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "src"
+# keep path short enough for flake8
 sys.path.insert(0, str(SRC))

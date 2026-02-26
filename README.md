@@ -23,3 +23,7 @@ This repo includes a minimal package `project` with a sample function and tests:
 from project import add
 print(add(2,3))  # 5
 ```
+
+CI status:
+
+[![CI](https://github.com/kbranley/test/actions/workflows/ci.yml/badge.svg)](https://github.com/kbranley/test/actions)
